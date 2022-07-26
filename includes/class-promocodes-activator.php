@@ -3,7 +3,7 @@
 /**
  * Fired during plugin activation
  *
- * @link       https://codestick.pl/
+ * @link       https://github.com/codestickdev/promocodes
  * @since      1.0.1
  *
  * @package    Promocodes

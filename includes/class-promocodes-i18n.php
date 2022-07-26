@@ -6,7 +6,7 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @link       https://codestick.pl/
+ * @link       https://github.com/codestickdev/promocodes
  * @since      1.0.1
  *
  * @package    Promocodes

@@ -3,7 +3,7 @@
 /**
  * The public-facing functionality of the plugin.
  *
- * @link       https://codestick.pl/
+ * @link       https://github.com/codestickdev/promocodes
  * @since      1.0.1
  *
  * @package    Promocodes

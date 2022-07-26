@@ -8,13 +8,13 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://codestick.pl/
+ * @link              https://github.com/codestickdev/promocodes
  * @since             1.0.1
  * @package           Promocodes
  *
  * @wordpress-plugin
  * Plugin Name:       Promocodes
- * Plugin URI:        https://codestick.pl/
+ * Plugin URI:        https://github.com/codestickdev/promocodes
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.0.1
  * Author:            Piotr Gajewski
