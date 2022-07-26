@@ -1,0 +1,83 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#promocodeTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 0;
+}
+
+#promocodeTable thead tr {
+    background-color: #bad2e5;
+    text-transform: uppercase;
+}
+
+#promocodeTable thead tr th {
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+#promocodeTable tbody tr.loading-row:hover {
+    background-color: unset !important;
+}
+
+#promocodeTable tbody tr:hover {
+    background-color: #dbdbdb;
+}
+
+#promocodeTable tbody tr td {
+    padding: 5px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#promocodeTable tbody tr td.bold {
+    font-weight: bold;
+}
+
+#promocodeTable tbody tr td.image a {
+    position: relative;
+    transition: ease 0.3s;
+}
+
+#promocodeTable tbody tr td.image a:hover {
+    opacity: 0.7;
+}
+
+#promocodeTable tbody tr td.image a:after {
+    content: "";
+    background-image: url("../images/file-image.svg");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    display: block;
+    filter: invert(46%) sepia(67%) saturate(904%) hue-rotate(175deg) brightness(95%) contrast(101%);
+    margin: 0 auto;
+}
+
+#promocodeTable tbody tr .loading {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#promocodeTable tbody tr .loading h2 {
+    font-size: 21px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0;
+    background: #d7d7d7;
+    padding: 6px 15px 9px;
+    border-radius: 10px;
+    -webkit-animation: blink-2 0.9s infinite both;
+    animation: blink-2 0.9s infinite both;
+}
+
+.addNewCode{
+    margin: 30px 0 0;
+}
