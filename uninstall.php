@@ -17,7 +17,7 @@
  * general skeleton and outline for how the file should work.
  *
  * @link       https://github.com/codestickdev/promocodes
- * @since      1.0.1
+ * @since      1.0.2
  *
  * @package    Promocodes
  */

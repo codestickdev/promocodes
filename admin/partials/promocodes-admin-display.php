@@ -6,7 +6,7 @@
  * This file is used to markup the admin-facing aspects of the plugin.
  *
  * @link       https://github.com/codestickdev/promocodes
- * @since      1.0.1
+ * @since      1.0.2
  *
  * @package    Promocodes
  * @subpackage Promocodes/admin/partials

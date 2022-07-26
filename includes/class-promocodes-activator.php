@@ -4,7 +4,7 @@
  * Fired during plugin activation
  *
  * @link       https://github.com/codestickdev/promocodes
- * @since      1.0.1
+ * @since      1.0.2
  *
  * @package    Promocodes
  * @subpackage Promocodes/includes
@@ -15,7 +15,7 @@
  *
  * This class defines all code necessary to run during the plugin's activation.
  *
- * @since      1.0.1
+ * @since      1.0.2
  * @package    Promocodes
  * @subpackage Promocodes/includes
  * @author     Piotr Gajewski <piotrdevv@gmail.om>
@@ -27,7 +27,7 @@ class Promocodes_Activator {
 	 *
 	 * Long Description.
 	 *
-	 * @since    1.0.1
+	 * @since    1.0.2
 	 */
 	public static function activate() {
 

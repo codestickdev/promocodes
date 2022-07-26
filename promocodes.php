@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://github.com/codestickdev/promocodes
- * @since             1.0.1
+ * @since             1.0.2
  * @package           Promocodes
  *
  * @wordpress-plugin
  * Plugin Name:       Promocodes
  * Plugin URI:        https://github.com/codestickdev/promocodes
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Piotr Gajewski
  * Author URI:        https://codestick.pl/
  * License:           GPL-2.0+
@@ -32,10 +32,10 @@ if ( ! defined( 'WPINC' ) ) {
 
 /**
  * Currently plugin version.
- * Start at version 1.0.1 and use SemVer - https://semver.org
+ * Start at version 1.0.2 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'PROMOCODES_VERSION', '1.0.1' );
+define( 'PROMOCODES_VERSION', '1.0.2' );
 
 /**
  * The code that runs during plugin activation.
@@ -90,7 +90,7 @@ class Customers_List extends WP_List_Table {
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.0.1
+ * @since    1.0.2
  */
 function run_promocodes() {
 
